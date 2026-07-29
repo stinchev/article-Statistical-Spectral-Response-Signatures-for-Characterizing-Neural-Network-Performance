@@ -1,0 +1,1824 @@
+{
+  "dataset": "cifar10",
+  "display_name": "CIFAR-10 (grayscale)",
+  "image_shape": [
+    32,
+    32
+  ],
+  "eval_subset_size": 2000,
+  "per_seed_results": [
+    {
+      "seed": 42,
+      "n_train": 45000,
+      "n_val": 5000,
+      "n_test": 10000,
+      "test_accuracy": 0.7903,
+      "high_frequency_ablation": [
+        {
+          "removed_fraction_key": 0.0,
+          "mode": "high",
+          "accuracy": 0.8035,
+          "kept_coefficients": 1024,
+          "removed_coefficients": 0,
+          "accuracy_drop_from_baseline_pp": 0.0,
+          "incremental_accuracy_drop_pp": 0.0
+        },
+        {
+          "removed_fraction_key": 0.05,
+          "mode": "high",
+          "accuracy": 0.8025,
+          "kept_coefficients": 973,
+          "removed_coefficients": 51,
+          "accuracy_drop_from_baseline_pp": 0.10000000000000009,
+          "incremental_accuracy_drop_pp": 0.10000000000000009
+        },
+        {
+          "removed_fraction_key": 0.1,
+          "mode": "high",
+          "accuracy": 0.8035,
+          "kept_coefficients": 922,
+          "removed_coefficients": 102,
+          "accuracy_drop_from_baseline_pp": 0.0,
+          "incremental_accuracy_drop_pp": -0.10000000000000009
+        },
+        {
+          "removed_fraction_key": 0.15000000000000002,
+          "mode": "high",
+          "accuracy": 0.792,
+          "kept_coefficients": 870,
+          "removed_coefficients": 154,
+          "accuracy_drop_from_baseline_pp": 1.1499999999999955,
+          "incremental_accuracy_drop_pp": 1.1499999999999955
+        },
+        {
+          "removed_fraction_key": 0.2,
+          "mode": "high",
+          "accuracy": 0.7855,
+          "kept_coefficients": 819,
+          "removed_coefficients": 205,
+          "accuracy_drop_from_baseline_pp": 1.8000000000000016,
+          "incremental_accuracy_drop_pp": 0.6500000000000061
+        },
+        {
+          "removed_fraction_key": 0.25,
+          "mode": "high",
+          "accuracy": 0.78,
+          "kept_coefficients": 768,
+          "removed_coefficients": 256,
+          "accuracy_drop_from_baseline_pp": 2.3499999999999965,
+          "incremental_accuracy_drop_pp": 0.5499999999999949
+        },
+        {
+          "removed_fraction_key": 0.30000000000000004,
+          "mode": "high",
+          "accuracy": 0.7645,
+          "kept_coefficients": 717,
+          "removed_coefficients": 307,
+          "accuracy_drop_from_baseline_pp": 3.9000000000000035,
+          "incremental_accuracy_drop_pp": 1.550000000000007
+        },
+        {
+          "removed_fraction_key": 0.35000000000000003,
+          "mode": "high",
+          "accuracy": 0.762,
+          "kept_coefficients": 666,
+          "removed_coefficients": 358,
+          "accuracy_drop_from_baseline_pp": 4.149999999999999,
+          "incremental_accuracy_drop_pp": 0.24999999999999467
+        },
+        {
+          "removed_fraction_key": 0.4,
+          "mode": "high",
+          "accuracy": 0.7375,
+          "kept_coefficients": 614,
+          "removed_coefficients": 410,
+          "accuracy_drop_from_baseline_pp": 6.599999999999994,
+          "incremental_accuracy_drop_pp": 2.4499999999999966
+        },
+        {
+          "removed_fraction_key": 0.45,
+          "mode": "high",
+          "accuracy": 0.7265,
+          "kept_coefficients": 563,
+          "removed_coefficients": 461,
+          "accuracy_drop_from_baseline_pp": 7.699999999999996,
+          "incremental_accuracy_drop_pp": 1.100000000000001
+        },
+        {
+          "removed_fraction_key": 0.5,
+          "mode": "high",
+          "accuracy": 0.711,
+          "kept_coefficients": 512,
+          "removed_coefficients": 512,
+          "accuracy_drop_from_baseline_pp": 9.250000000000004,
+          "incremental_accuracy_drop_pp": 1.550000000000007
+        },
+        {
+          "removed_fraction_key": 0.55,
+          "mode": "high",
+          "accuracy": 0.669,
+          "kept_coefficients": 461,
+          "removed_coefficients": 563,
+          "accuracy_drop_from_baseline_pp": 13.449999999999996,
+          "incremental_accuracy_drop_pp": 4.199999999999992
+        },
+        {
+          "removed_fraction_key": 0.6000000000000001,
+          "mode": "high",
+          "accuracy": 0.624,
+          "kept_coefficients": 410,
+          "removed_coefficients": 614,
+          "accuracy_drop_from_baseline_pp": 17.95,
+          "incremental_accuracy_drop_pp": 4.5000000000000036
+        },
+        {
+          "removed_fraction_key": 0.65,
+          "mode": "high",
+          "accuracy": 0.5755,
+          "kept_coefficients": 358,
+          "removed_coefficients": 666,
+          "accuracy_drop_from_baseline_pp": 22.799999999999997,
+          "incremental_accuracy_drop_pp": 4.849999999999999
+        },
+        {
+          "removed_fraction_key": 0.7000000000000001,
+          "mode": "high",
+          "accuracy": 0.485,
+          "kept_coefficients": 307,
+          "removed_coefficients": 717,
+          "accuracy_drop_from_baseline_pp": 31.85,
+          "incremental_accuracy_drop_pp": 9.050000000000002
+        },
+        {
+          "removed_fraction_key": 0.75,
+          "mode": "high",
+          "accuracy": 0.3795,
+          "kept_coefficients": 256,
+          "removed_coefficients": 768,
+          "accuracy_drop_from_baseline_pp": 42.4,
+          "incremental_accuracy_drop_pp": 10.549999999999999
+        },
+        {
+          "removed_fraction_key": 0.8,
+          "mode": "high",
+          "accuracy": 0.29,
+          "kept_coefficients": 205,
+          "removed_coefficients": 819,
+          "accuracy_drop_from_baseline_pp": 51.35000000000001,
+          "incremental_accuracy_drop_pp": 8.950000000000003
+        },
+        {
+          "removed_fraction_key": 0.8500000000000001,
+          "mode": "high",
+          "accuracy": 0.2245,
+          "kept_coefficients": 154,
+          "removed_coefficients": 870,
+          "accuracy_drop_from_baseline_pp": 57.9,
+          "incremental_accuracy_drop_pp": 6.549999999999997
+        },
+        {
+          "removed_fraction_key": 0.9,
+          "mode": "high",
+          "accuracy": 0.186,
+          "kept_coefficients": 102,
+          "removed_coefficients": 922,
+          "accuracy_drop_from_baseline_pp": 61.74999999999999,
+          "incremental_accuracy_drop_pp": 3.8500000000000005
+        },
+        {
+          "removed_fraction_key": 0.9500000000000001,
+          "mode": "high",
+          "accuracy": 0.136,
+          "kept_coefficients": 51,
+          "removed_coefficients": 973,
+          "accuracy_drop_from_baseline_pp": 66.75,
+          "incremental_accuracy_drop_pp": 4.999999999999999
+        }
+      ],
+      "low_frequency_ablation": [
+        {
+          "removed_fraction_key": 0.0,
+          "mode": "low",
+          "accuracy": 0.8035,
+          "kept_coefficients": 1024,
+          "removed_coefficients": 0,
+          "accuracy_drop_from_baseline_pp": 0.0,
+          "incremental_accuracy_drop_pp": 0.0
+        },
+        {
+          "removed_fraction_key": 0.05,
+          "mode": "low",
+          "accuracy": 0.366,
+          "kept_coefficients": 973,
+          "removed_coefficients": 51,
+          "accuracy_drop_from_baseline_pp": 43.75,
+          "incremental_accuracy_drop_pp": 43.75
+        },
+        {
+          "removed_fraction_key": 0.1,
+          "mode": "low",
+          "accuracy": 0.303,
+          "kept_coefficients": 922,
+          "removed_coefficients": 102,
+          "accuracy_drop_from_baseline_pp": 50.05,
+          "incremental_accuracy_drop_pp": 6.3
+        },
+        {
+          "removed_fraction_key": 0.15000000000000002,
+          "mode": "low",
+          "accuracy": 0.215,
+          "kept_coefficients": 870,
+          "removed_coefficients": 154,
+          "accuracy_drop_from_baseline_pp": 58.85,
+          "incremental_accuracy_drop_pp": 8.799999999999999
+        },
+        {
+          "removed_fraction_key": 0.2,
+          "mode": "low",
+          "accuracy": 0.1715,
+          "kept_coefficients": 819,
+          "removed_coefficients": 205,
+          "accuracy_drop_from_baseline_pp": 63.2,
+          "incremental_accuracy_drop_pp": 4.349999999999998
+        },
+        {
+          "removed_fraction_key": 0.25,
+          "mode": "low",
+          "accuracy": 0.1485,
+          "kept_coefficients": 768,
+          "removed_coefficients": 256,
+          "accuracy_drop_from_baseline_pp": 65.5,
+          "incremental_accuracy_drop_pp": 2.300000000000002
+        },
+        {
+          "removed_fraction_key": 0.30000000000000004,
+          "mode": "low",
+          "accuracy": 0.1335,
+          "kept_coefficients": 717,
+          "removed_coefficients": 307,
+          "accuracy_drop_from_baseline_pp": 67.0,
+          "incremental_accuracy_drop_pp": 1.4999999999999987
+        },
+        {
+          "removed_fraction_key": 0.35000000000000003,
+          "mode": "low",
+          "accuracy": 0.132,
+          "kept_coefficients": 666,
+          "removed_coefficients": 358,
+          "accuracy_drop_from_baseline_pp": 67.15,
+          "incremental_accuracy_drop_pp": 0.15000000000000013
+        },
+        {
+          "removed_fraction_key": 0.4,
+          "mode": "low",
+          "accuracy": 0.1255,
+          "kept_coefficients": 614,
+          "removed_coefficients": 410,
+          "accuracy_drop_from_baseline_pp": 67.8,
+          "incremental_accuracy_drop_pp": 0.6500000000000006
+        },
+        {
+          "removed_fraction_key": 0.45,
+          "mode": "low",
+          "accuracy": 0.122,
+          "kept_coefficients": 563,
+          "removed_coefficients": 461,
+          "accuracy_drop_from_baseline_pp": 68.15,
+          "incremental_accuracy_drop_pp": 0.3500000000000003
+        },
+        {
+          "removed_fraction_key": 0.5,
+          "mode": "low",
+          "accuracy": 0.115,
+          "kept_coefficients": 512,
+          "removed_coefficients": 512,
+          "accuracy_drop_from_baseline_pp": 68.85,
+          "incremental_accuracy_drop_pp": 0.6999999999999993
+        },
+        {
+          "removed_fraction_key": 0.55,
+          "mode": "low",
+          "accuracy": 0.1215,
+          "kept_coefficients": 461,
+          "removed_coefficients": 563,
+          "accuracy_drop_from_baseline_pp": 68.19999999999999,
+          "incremental_accuracy_drop_pp": -0.6499999999999992
+        },
+        {
+          "removed_fraction_key": 0.6000000000000001,
+          "mode": "low",
+          "accuracy": 0.1205,
+          "kept_coefficients": 410,
+          "removed_coefficients": 614,
+          "accuracy_drop_from_baseline_pp": 68.30000000000001,
+          "incremental_accuracy_drop_pp": 0.10000000000000009
+        },
+        {
+          "removed_fraction_key": 0.65,
+          "mode": "low",
+          "accuracy": 0.122,
+          "kept_coefficients": 358,
+          "removed_coefficients": 666,
+          "accuracy_drop_from_baseline_pp": 68.15,
+          "incremental_accuracy_drop_pp": -0.15000000000000013
+        },
+        {
+          "removed_fraction_key": 0.7000000000000001,
+          "mode": "low",
+          "accuracy": 0.1185,
+          "kept_coefficients": 307,
+          "removed_coefficients": 717,
+          "accuracy_drop_from_baseline_pp": 68.5,
+          "incremental_accuracy_drop_pp": 0.3500000000000003
+        },
+        {
+          "removed_fraction_key": 0.75,
+          "mode": "low",
+          "accuracy": 0.108,
+          "kept_coefficients": 256,
+          "removed_coefficients": 768,
+          "accuracy_drop_from_baseline_pp": 69.55,
+          "incremental_accuracy_drop_pp": 1.0499999999999996
+        },
+        {
+          "removed_fraction_key": 0.8,
+          "mode": "low",
+          "accuracy": 0.1,
+          "kept_coefficients": 205,
+          "removed_coefficients": 819,
+          "accuracy_drop_from_baseline_pp": 70.35,
+          "incremental_accuracy_drop_pp": 0.7999999999999994
+        },
+        {
+          "removed_fraction_key": 0.8500000000000001,
+          "mode": "low",
+          "accuracy": 0.0985,
+          "kept_coefficients": 154,
+          "removed_coefficients": 870,
+          "accuracy_drop_from_baseline_pp": 70.5,
+          "incremental_accuracy_drop_pp": 0.15000000000000013
+        },
+        {
+          "removed_fraction_key": 0.9,
+          "mode": "low",
+          "accuracy": 0.0985,
+          "kept_coefficients": 102,
+          "removed_coefficients": 922,
+          "accuracy_drop_from_baseline_pp": 70.5,
+          "incremental_accuracy_drop_pp": 0.0
+        },
+        {
+          "removed_fraction_key": 0.9500000000000001,
+          "mode": "low",
+          "accuracy": 0.0985,
+          "kept_coefficients": 51,
+          "removed_coefficients": 973,
+          "accuracy_drop_from_baseline_pp": 70.5,
+          "incremental_accuracy_drop_pp": 0.0
+        }
+      ],
+      "mid_frequency_ablation": [
+        {
+          "removed_fraction_key": 0.0,
+          "mode": "mid",
+          "accuracy": 0.8035,
+          "kept_coefficients": 1024,
+          "removed_coefficients": 0,
+          "accuracy_drop_from_baseline_pp": 0.0,
+          "incremental_accuracy_drop_pp": 0.0
+        },
+        {
+          "removed_fraction_key": 0.05,
+          "mode": "mid",
+          "accuracy": 0.764,
+          "kept_coefficients": 973,
+          "removed_coefficients": 51,
+          "accuracy_drop_from_baseline_pp": 3.949999999999998,
+          "incremental_accuracy_drop_pp": 3.949999999999998
+        },
+        {
+          "removed_fraction_key": 0.1,
+          "mode": "mid",
+          "accuracy": 0.742,
+          "kept_coefficients": 922,
+          "removed_coefficients": 102,
+          "accuracy_drop_from_baseline_pp": 6.15,
+          "incremental_accuracy_drop_pp": 2.200000000000002
+        },
+        {
+          "removed_fraction_key": 0.15000000000000002,
+          "mode": "mid",
+          "accuracy": 0.679,
+          "kept_coefficients": 870,
+          "removed_coefficients": 154,
+          "accuracy_drop_from_baseline_pp": 12.449999999999994,
+          "incremental_accuracy_drop_pp": 6.2999999999999945
+        },
+        {
+          "removed_fraction_key": 0.2,
+          "mode": "mid",
+          "accuracy": 0.6535,
+          "kept_coefficients": 819,
+          "removed_coefficients": 205,
+          "accuracy_drop_from_baseline_pp": 15.000000000000002,
+          "incremental_accuracy_drop_pp": 2.550000000000008
+        },
+        {
+          "removed_fraction_key": 0.25,
+          "mode": "mid",
+          "accuracy": 0.608,
+          "kept_coefficients": 768,
+          "removed_coefficients": 256,
+          "accuracy_drop_from_baseline_pp": 19.55,
+          "incremental_accuracy_drop_pp": 4.549999999999999
+        },
+        {
+          "removed_fraction_key": 0.30000000000000004,
+          "mode": "mid",
+          "accuracy": 0.5645,
+          "kept_coefficients": 717,
+          "removed_coefficients": 307,
+          "accuracy_drop_from_baseline_pp": 23.9,
+          "incremental_accuracy_drop_pp": 4.349999999999998
+        },
+        {
+          "removed_fraction_key": 0.35000000000000003,
+          "mode": "mid",
+          "accuracy": 0.5315,
+          "kept_coefficients": 666,
+          "removed_coefficients": 358,
+          "accuracy_drop_from_baseline_pp": 27.200000000000003,
+          "incremental_accuracy_drop_pp": 3.300000000000003
+        },
+        {
+          "removed_fraction_key": 0.4,
+          "mode": "mid",
+          "accuracy": 0.511,
+          "kept_coefficients": 614,
+          "removed_coefficients": 410,
+          "accuracy_drop_from_baseline_pp": 29.25,
+          "incremental_accuracy_drop_pp": 2.0499999999999963
+        },
+        {
+          "removed_fraction_key": 0.45,
+          "mode": "mid",
+          "accuracy": 0.4505,
+          "kept_coefficients": 563,
+          "removed_coefficients": 461,
+          "accuracy_drop_from_baseline_pp": 35.3,
+          "incremental_accuracy_drop_pp": 6.05
+        },
+        {
+          "removed_fraction_key": 0.5,
+          "mode": "mid",
+          "accuracy": 0.404,
+          "kept_coefficients": 512,
+          "removed_coefficients": 512,
+          "accuracy_drop_from_baseline_pp": 39.949999999999996,
+          "incremental_accuracy_drop_pp": 4.649999999999999
+        },
+        {
+          "removed_fraction_key": 0.55,
+          "mode": "mid",
+          "accuracy": 0.3745,
+          "kept_coefficients": 461,
+          "removed_coefficients": 563,
+          "accuracy_drop_from_baseline_pp": 42.9,
+          "incremental_accuracy_drop_pp": 2.950000000000003
+        },
+        {
+          "removed_fraction_key": 0.6000000000000001,
+          "mode": "mid",
+          "accuracy": 0.3385,
+          "kept_coefficients": 410,
+          "removed_coefficients": 614,
+          "accuracy_drop_from_baseline_pp": 46.5,
+          "incremental_accuracy_drop_pp": 3.599999999999998
+        },
+        {
+          "removed_fraction_key": 0.65,
+          "mode": "mid",
+          "accuracy": 0.288,
+          "kept_coefficients": 358,
+          "removed_coefficients": 666,
+          "accuracy_drop_from_baseline_pp": 51.550000000000004,
+          "incremental_accuracy_drop_pp": 5.050000000000004
+        },
+        {
+          "removed_fraction_key": 0.7000000000000001,
+          "mode": "mid",
+          "accuracy": 0.266,
+          "kept_coefficients": 307,
+          "removed_coefficients": 717,
+          "accuracy_drop_from_baseline_pp": 53.75,
+          "incremental_accuracy_drop_pp": 2.1999999999999966
+        },
+        {
+          "removed_fraction_key": 0.75,
+          "mode": "mid",
+          "accuracy": 0.2475,
+          "kept_coefficients": 256,
+          "removed_coefficients": 768,
+          "accuracy_drop_from_baseline_pp": 55.60000000000001,
+          "incremental_accuracy_drop_pp": 1.8500000000000016
+        },
+        {
+          "removed_fraction_key": 0.8,
+          "mode": "mid",
+          "accuracy": 0.2,
+          "kept_coefficients": 205,
+          "removed_coefficients": 819,
+          "accuracy_drop_from_baseline_pp": 60.349999999999994,
+          "incremental_accuracy_drop_pp": 4.749999999999998
+        },
+        {
+          "removed_fraction_key": 0.8500000000000001,
+          "mode": "mid",
+          "accuracy": 0.1885,
+          "kept_coefficients": 154,
+          "removed_coefficients": 870,
+          "accuracy_drop_from_baseline_pp": 61.5,
+          "incremental_accuracy_drop_pp": 1.150000000000001
+        },
+        {
+          "removed_fraction_key": 0.9,
+          "mode": "mid",
+          "accuracy": 0.154,
+          "kept_coefficients": 102,
+          "removed_coefficients": 922,
+          "accuracy_drop_from_baseline_pp": 64.95,
+          "incremental_accuracy_drop_pp": 3.45
+        },
+        {
+          "removed_fraction_key": 0.9500000000000001,
+          "mode": "mid",
+          "accuracy": 0.14,
+          "kept_coefficients": 51,
+          "removed_coefficients": 973,
+          "accuracy_drop_from_baseline_pp": 66.35,
+          "incremental_accuracy_drop_pp": 1.3999999999999986
+        }
+      ],
+      "band_ablation": [
+        {
+          "band": "low",
+          "accuracy": 0.1431,
+          "kept_coefficients": 683,
+          "removed_coefficients": 341,
+          "accuracy_drop_from_baseline_pp": 64.72
+        },
+        {
+          "band": "mid",
+          "accuracy": 0.5237,
+          "kept_coefficients": 684,
+          "removed_coefficients": 340,
+          "accuracy_drop_from_baseline_pp": 26.659999999999997
+        },
+        {
+          "band": "high",
+          "accuracy": 0.7298,
+          "kept_coefficients": 681,
+          "removed_coefficients": 343,
+          "accuracy_drop_from_baseline_pp": 6.05
+        }
+      ]
+    },
+    {
+      "seed": 43,
+      "n_train": 45000,
+      "n_val": 5000,
+      "n_test": 10000,
+      "test_accuracy": 0.7927,
+      "high_frequency_ablation": [
+        {
+          "removed_fraction_key": 0.0,
+          "mode": "high",
+          "accuracy": 0.792,
+          "kept_coefficients": 1024,
+          "removed_coefficients": 0,
+          "accuracy_drop_from_baseline_pp": 0.0,
+          "incremental_accuracy_drop_pp": 0.0
+        },
+        {
+          "removed_fraction_key": 0.05,
+          "mode": "high",
+          "accuracy": 0.794,
+          "kept_coefficients": 973,
+          "removed_coefficients": 51,
+          "accuracy_drop_from_baseline_pp": -0.20000000000000018,
+          "incremental_accuracy_drop_pp": -0.20000000000000018
+        },
+        {
+          "removed_fraction_key": 0.1,
+          "mode": "high",
+          "accuracy": 0.791,
+          "kept_coefficients": 922,
+          "removed_coefficients": 102,
+          "accuracy_drop_from_baseline_pp": 0.10000000000000009,
+          "incremental_accuracy_drop_pp": 0.30000000000000027
+        },
+        {
+          "removed_fraction_key": 0.15000000000000002,
+          "mode": "high",
+          "accuracy": 0.7875,
+          "kept_coefficients": 870,
+          "removed_coefficients": 154,
+          "accuracy_drop_from_baseline_pp": 0.45000000000000595,
+          "incremental_accuracy_drop_pp": 0.35000000000000586
+        },
+        {
+          "removed_fraction_key": 0.2,
+          "mode": "high",
+          "accuracy": 0.7755,
+          "kept_coefficients": 819,
+          "removed_coefficients": 205,
+          "accuracy_drop_from_baseline_pp": 1.650000000000007,
+          "incremental_accuracy_drop_pp": 1.200000000000001
+        },
+        {
+          "removed_fraction_key": 0.25,
+          "mode": "high",
+          "accuracy": 0.7665,
+          "kept_coefficients": 768,
+          "removed_coefficients": 256,
+          "accuracy_drop_from_baseline_pp": 2.550000000000008,
+          "incremental_accuracy_drop_pp": 0.9000000000000008
+        },
+        {
+          "removed_fraction_key": 0.30000000000000004,
+          "mode": "high",
+          "accuracy": 0.7515,
+          "kept_coefficients": 717,
+          "removed_coefficients": 307,
+          "accuracy_drop_from_baseline_pp": 4.05000000000001,
+          "incremental_accuracy_drop_pp": 1.5000000000000013
+        },
+        {
+          "removed_fraction_key": 0.35000000000000003,
+          "mode": "high",
+          "accuracy": 0.737,
+          "kept_coefficients": 666,
+          "removed_coefficients": 358,
+          "accuracy_drop_from_baseline_pp": 5.500000000000005,
+          "incremental_accuracy_drop_pp": 1.4499999999999957
+        },
+        {
+          "removed_fraction_key": 0.4,
+          "mode": "high",
+          "accuracy": 0.725,
+          "kept_coefficients": 614,
+          "removed_coefficients": 410,
+          "accuracy_drop_from_baseline_pp": 6.700000000000006,
+          "incremental_accuracy_drop_pp": 1.200000000000001
+        },
+        {
+          "removed_fraction_key": 0.45,
+          "mode": "high",
+          "accuracy": 0.702,
+          "kept_coefficients": 563,
+          "removed_coefficients": 461,
+          "accuracy_drop_from_baseline_pp": 9.000000000000007,
+          "incremental_accuracy_drop_pp": 2.300000000000002
+        },
+        {
+          "removed_fraction_key": 0.5,
+          "mode": "high",
+          "accuracy": 0.6815,
+          "kept_coefficients": 512,
+          "removed_coefficients": 512,
+          "accuracy_drop_from_baseline_pp": 11.050000000000004,
+          "incremental_accuracy_drop_pp": 2.0499999999999963
+        },
+        {
+          "removed_fraction_key": 0.55,
+          "mode": "high",
+          "accuracy": 0.65,
+          "kept_coefficients": 461,
+          "removed_coefficients": 563,
+          "accuracy_drop_from_baseline_pp": 14.200000000000001,
+          "incremental_accuracy_drop_pp": 3.1499999999999972
+        },
+        {
+          "removed_fraction_key": 0.6000000000000001,
+          "mode": "high",
+          "accuracy": 0.6035,
+          "kept_coefficients": 410,
+          "removed_coefficients": 614,
+          "accuracy_drop_from_baseline_pp": 18.85,
+          "incremental_accuracy_drop_pp": 4.649999999999999
+        },
+        {
+          "removed_fraction_key": 0.65,
+          "mode": "high",
+          "accuracy": 0.5425,
+          "kept_coefficients": 358,
+          "removed_coefficients": 666,
+          "accuracy_drop_from_baseline_pp": 24.950000000000006,
+          "incremental_accuracy_drop_pp": 6.100000000000005
+        },
+        {
+          "removed_fraction_key": 0.7000000000000001,
+          "mode": "high",
+          "accuracy": 0.465,
+          "kept_coefficients": 307,
+          "removed_coefficients": 717,
+          "accuracy_drop_from_baseline_pp": 32.7,
+          "incremental_accuracy_drop_pp": 7.749999999999996
+        },
+        {
+          "removed_fraction_key": 0.75,
+          "mode": "high",
+          "accuracy": 0.365,
+          "kept_coefficients": 256,
+          "removed_coefficients": 768,
+          "accuracy_drop_from_baseline_pp": 42.7,
+          "incremental_accuracy_drop_pp": 10.000000000000004
+        },
+        {
+          "removed_fraction_key": 0.8,
+          "mode": "high",
+          "accuracy": 0.2695,
+          "kept_coefficients": 205,
+          "removed_coefficients": 819,
+          "accuracy_drop_from_baseline_pp": 52.25,
+          "incremental_accuracy_drop_pp": 9.549999999999997
+        },
+        {
+          "removed_fraction_key": 0.8500000000000001,
+          "mode": "high",
+          "accuracy": 0.2075,
+          "kept_coefficients": 154,
+          "removed_coefficients": 870,
+          "accuracy_drop_from_baseline_pp": 58.45,
+          "incremental_accuracy_drop_pp": 6.200000000000003
+        },
+        {
+          "removed_fraction_key": 0.9,
+          "mode": "high",
+          "accuracy": 0.1625,
+          "kept_coefficients": 102,
+          "removed_coefficients": 922,
+          "accuracy_drop_from_baseline_pp": 62.95,
+          "incremental_accuracy_drop_pp": 4.499999999999998
+        },
+        {
+          "removed_fraction_key": 0.9500000000000001,
+          "mode": "high",
+          "accuracy": 0.131,
+          "kept_coefficients": 51,
+          "removed_coefficients": 973,
+          "accuracy_drop_from_baseline_pp": 66.10000000000001,
+          "incremental_accuracy_drop_pp": 3.15
+        }
+      ],
+      "low_frequency_ablation": [
+        {
+          "removed_fraction_key": 0.0,
+          "mode": "low",
+          "accuracy": 0.792,
+          "kept_coefficients": 1024,
+          "removed_coefficients": 0,
+          "accuracy_drop_from_baseline_pp": 0.0,
+          "incremental_accuracy_drop_pp": 0.0
+        },
+        {
+          "removed_fraction_key": 0.05,
+          "mode": "low",
+          "accuracy": 0.3695,
+          "kept_coefficients": 973,
+          "removed_coefficients": 51,
+          "accuracy_drop_from_baseline_pp": 42.25000000000001,
+          "incremental_accuracy_drop_pp": 42.25000000000001
+        },
+        {
+          "removed_fraction_key": 0.1,
+          "mode": "low",
+          "accuracy": 0.313,
+          "kept_coefficients": 922,
+          "removed_coefficients": 102,
+          "accuracy_drop_from_baseline_pp": 47.900000000000006,
+          "incremental_accuracy_drop_pp": 5.6499999999999995
+        },
+        {
+          "removed_fraction_key": 0.15000000000000002,
+          "mode": "low",
+          "accuracy": 0.2445,
+          "kept_coefficients": 870,
+          "removed_coefficients": 154,
+          "accuracy_drop_from_baseline_pp": 54.75000000000001,
+          "incremental_accuracy_drop_pp": 6.8500000000000005
+        },
+        {
+          "removed_fraction_key": 0.2,
+          "mode": "low",
+          "accuracy": 0.1895,
+          "kept_coefficients": 819,
+          "removed_coefficients": 205,
+          "accuracy_drop_from_baseline_pp": 60.25,
+          "incremental_accuracy_drop_pp": 5.499999999999999
+        },
+        {
+          "removed_fraction_key": 0.25,
+          "mode": "low",
+          "accuracy": 0.152,
+          "kept_coefficients": 768,
+          "removed_coefficients": 256,
+          "accuracy_drop_from_baseline_pp": 64.0,
+          "incremental_accuracy_drop_pp": 3.7500000000000004
+        },
+        {
+          "removed_fraction_key": 0.30000000000000004,
+          "mode": "low",
+          "accuracy": 0.1475,
+          "kept_coefficients": 717,
+          "removed_coefficients": 307,
+          "accuracy_drop_from_baseline_pp": 64.45,
+          "incremental_accuracy_drop_pp": 0.4500000000000004
+        },
+        {
+          "removed_fraction_key": 0.35000000000000003,
+          "mode": "low",
+          "accuracy": 0.136,
+          "kept_coefficients": 666,
+          "removed_coefficients": 358,
+          "accuracy_drop_from_baseline_pp": 65.60000000000001,
+          "incremental_accuracy_drop_pp": 1.1499999999999981
+        },
+        {
+          "removed_fraction_key": 0.4,
+          "mode": "low",
+          "accuracy": 0.133,
+          "kept_coefficients": 614,
+          "removed_coefficients": 410,
+          "accuracy_drop_from_baseline_pp": 65.9,
+          "incremental_accuracy_drop_pp": 0.30000000000000027
+        },
+        {
+          "removed_fraction_key": 0.45,
+          "mode": "low",
+          "accuracy": 0.133,
+          "kept_coefficients": 563,
+          "removed_coefficients": 461,
+          "accuracy_drop_from_baseline_pp": 65.9,
+          "incremental_accuracy_drop_pp": 0.0
+        },
+        {
+          "removed_fraction_key": 0.5,
+          "mode": "low",
+          "accuracy": 0.127,
+          "kept_coefficients": 512,
+          "removed_coefficients": 512,
+          "accuracy_drop_from_baseline_pp": 66.5,
+          "incremental_accuracy_drop_pp": 0.6000000000000005
+        },
+        {
+          "removed_fraction_key": 0.55,
+          "mode": "low",
+          "accuracy": 0.1245,
+          "kept_coefficients": 461,
+          "removed_coefficients": 563,
+          "accuracy_drop_from_baseline_pp": 66.75,
+          "incremental_accuracy_drop_pp": 0.2500000000000002
+        },
+        {
+          "removed_fraction_key": 0.6000000000000001,
+          "mode": "low",
+          "accuracy": 0.1145,
+          "kept_coefficients": 410,
+          "removed_coefficients": 614,
+          "accuracy_drop_from_baseline_pp": 67.75,
+          "incremental_accuracy_drop_pp": 0.9999999999999996
+        },
+        {
+          "removed_fraction_key": 0.65,
+          "mode": "low",
+          "accuracy": 0.106,
+          "kept_coefficients": 358,
+          "removed_coefficients": 666,
+          "accuracy_drop_from_baseline_pp": 68.60000000000001,
+          "incremental_accuracy_drop_pp": 0.8500000000000008
+        },
+        {
+          "removed_fraction_key": 0.7000000000000001,
+          "mode": "low",
+          "accuracy": 0.1035,
+          "kept_coefficients": 307,
+          "removed_coefficients": 717,
+          "accuracy_drop_from_baseline_pp": 68.85,
+          "incremental_accuracy_drop_pp": 0.2500000000000002
+        },
+        {
+          "removed_fraction_key": 0.75,
+          "mode": "low",
+          "accuracy": 0.101,
+          "kept_coefficients": 256,
+          "removed_coefficients": 768,
+          "accuracy_drop_from_baseline_pp": 69.10000000000001,
+          "incremental_accuracy_drop_pp": 0.24999999999999883
+        },
+        {
+          "removed_fraction_key": 0.8,
+          "mode": "low",
+          "accuracy": 0.1015,
+          "kept_coefficients": 205,
+          "removed_coefficients": 819,
+          "accuracy_drop_from_baseline_pp": 69.05,
+          "incremental_accuracy_drop_pp": -0.050000000000000044
+        },
+        {
+          "removed_fraction_key": 0.8500000000000001,
+          "mode": "low",
+          "accuracy": 0.1015,
+          "kept_coefficients": 154,
+          "removed_coefficients": 870,
+          "accuracy_drop_from_baseline_pp": 69.05,
+          "incremental_accuracy_drop_pp": 0.0
+        },
+        {
+          "removed_fraction_key": 0.9,
+          "mode": "low",
+          "accuracy": 0.1015,
+          "kept_coefficients": 102,
+          "removed_coefficients": 922,
+          "accuracy_drop_from_baseline_pp": 69.05,
+          "incremental_accuracy_drop_pp": 0.0
+        },
+        {
+          "removed_fraction_key": 0.9500000000000001,
+          "mode": "low",
+          "accuracy": 0.1015,
+          "kept_coefficients": 51,
+          "removed_coefficients": 973,
+          "accuracy_drop_from_baseline_pp": 69.05,
+          "incremental_accuracy_drop_pp": 0.0
+        }
+      ],
+      "mid_frequency_ablation": [
+        {
+          "removed_fraction_key": 0.0,
+          "mode": "mid",
+          "accuracy": 0.792,
+          "kept_coefficients": 1024,
+          "removed_coefficients": 0,
+          "accuracy_drop_from_baseline_pp": 0.0,
+          "incremental_accuracy_drop_pp": 0.0
+        },
+        {
+          "removed_fraction_key": 0.05,
+          "mode": "mid",
+          "accuracy": 0.764,
+          "kept_coefficients": 973,
+          "removed_coefficients": 51,
+          "accuracy_drop_from_baseline_pp": 2.8000000000000025,
+          "incremental_accuracy_drop_pp": 2.8000000000000025
+        },
+        {
+          "removed_fraction_key": 0.1,
+          "mode": "mid",
+          "accuracy": 0.7355,
+          "kept_coefficients": 922,
+          "removed_coefficients": 102,
+          "accuracy_drop_from_baseline_pp": 5.6499999999999995,
+          "incremental_accuracy_drop_pp": 2.849999999999997
+        },
+        {
+          "removed_fraction_key": 0.15000000000000002,
+          "mode": "mid",
+          "accuracy": 0.6785,
+          "kept_coefficients": 870,
+          "removed_coefficients": 154,
+          "accuracy_drop_from_baseline_pp": 11.350000000000005,
+          "incremental_accuracy_drop_pp": 5.700000000000005
+        },
+        {
+          "removed_fraction_key": 0.2,
+          "mode": "mid",
+          "accuracy": 0.637,
+          "kept_coefficients": 819,
+          "removed_coefficients": 205,
+          "accuracy_drop_from_baseline_pp": 15.500000000000004,
+          "incremental_accuracy_drop_pp": 4.149999999999999
+        },
+        {
+          "removed_fraction_key": 0.25,
+          "mode": "mid",
+          "accuracy": 0.608,
+          "kept_coefficients": 768,
+          "removed_coefficients": 256,
+          "accuracy_drop_from_baseline_pp": 18.400000000000006,
+          "incremental_accuracy_drop_pp": 2.9000000000000026
+        },
+        {
+          "removed_fraction_key": 0.30000000000000004,
+          "mode": "mid",
+          "accuracy": 0.551,
+          "kept_coefficients": 717,
+          "removed_coefficients": 307,
+          "accuracy_drop_from_baseline_pp": 24.099999999999998,
+          "incremental_accuracy_drop_pp": 5.699999999999994
+        },
+        {
+          "removed_fraction_key": 0.35000000000000003,
+          "mode": "mid",
+          "accuracy": 0.5245,
+          "kept_coefficients": 666,
+          "removed_coefficients": 358,
+          "accuracy_drop_from_baseline_pp": 26.750000000000007,
+          "incremental_accuracy_drop_pp": 2.650000000000008
+        },
+        {
+          "removed_fraction_key": 0.4,
+          "mode": "mid",
+          "accuracy": 0.5075,
+          "kept_coefficients": 614,
+          "removed_coefficients": 410,
+          "accuracy_drop_from_baseline_pp": 28.45000000000001,
+          "incremental_accuracy_drop_pp": 1.7000000000000015
+        },
+        {
+          "removed_fraction_key": 0.45,
+          "mode": "mid",
+          "accuracy": 0.436,
+          "kept_coefficients": 563,
+          "removed_coefficients": 461,
+          "accuracy_drop_from_baseline_pp": 35.6,
+          "incremental_accuracy_drop_pp": 7.149999999999995
+        },
+        {
+          "removed_fraction_key": 0.5,
+          "mode": "mid",
+          "accuracy": 0.4115,
+          "kept_coefficients": 512,
+          "removed_coefficients": 512,
+          "accuracy_drop_from_baseline_pp": 38.050000000000004,
+          "incremental_accuracy_drop_pp": 2.450000000000002
+        },
+        {
+          "removed_fraction_key": 0.55,
+          "mode": "mid",
+          "accuracy": 0.371,
+          "kept_coefficients": 461,
+          "removed_coefficients": 563,
+          "accuracy_drop_from_baseline_pp": 42.1,
+          "incremental_accuracy_drop_pp": 4.049999999999998
+        },
+        {
+          "removed_fraction_key": 0.6000000000000001,
+          "mode": "mid",
+          "accuracy": 0.319,
+          "kept_coefficients": 410,
+          "removed_coefficients": 614,
+          "accuracy_drop_from_baseline_pp": 47.300000000000004,
+          "incremental_accuracy_drop_pp": 5.199999999999999
+        },
+        {
+          "removed_fraction_key": 0.65,
+          "mode": "mid",
+          "accuracy": 0.286,
+          "kept_coefficients": 358,
+          "removed_coefficients": 666,
+          "accuracy_drop_from_baseline_pp": 50.6,
+          "incremental_accuracy_drop_pp": 3.300000000000003
+        },
+        {
+          "removed_fraction_key": 0.7000000000000001,
+          "mode": "mid",
+          "accuracy": 0.25,
+          "kept_coefficients": 307,
+          "removed_coefficients": 717,
+          "accuracy_drop_from_baseline_pp": 54.2,
+          "incremental_accuracy_drop_pp": 3.599999999999998
+        },
+        {
+          "removed_fraction_key": 0.75,
+          "mode": "mid",
+          "accuracy": 0.2205,
+          "kept_coefficients": 256,
+          "removed_coefficients": 768,
+          "accuracy_drop_from_baseline_pp": 57.15,
+          "incremental_accuracy_drop_pp": 2.9499999999999997
+        },
+        {
+          "removed_fraction_key": 0.8,
+          "mode": "mid",
+          "accuracy": 0.1815,
+          "kept_coefficients": 205,
+          "removed_coefficients": 819,
+          "accuracy_drop_from_baseline_pp": 61.050000000000004,
+          "incremental_accuracy_drop_pp": 3.900000000000001
+        },
+        {
+          "removed_fraction_key": 0.8500000000000001,
+          "mode": "mid",
+          "accuracy": 0.18,
+          "kept_coefficients": 154,
+          "removed_coefficients": 870,
+          "accuracy_drop_from_baseline_pp": 61.20000000000001,
+          "incremental_accuracy_drop_pp": 0.15000000000000013
+        },
+        {
+          "removed_fraction_key": 0.9,
+          "mode": "mid",
+          "accuracy": 0.139,
+          "kept_coefficients": 102,
+          "removed_coefficients": 922,
+          "accuracy_drop_from_baseline_pp": 65.3,
+          "incremental_accuracy_drop_pp": 4.099999999999998
+        },
+        {
+          "removed_fraction_key": 0.9500000000000001,
+          "mode": "mid",
+          "accuracy": 0.1305,
+          "kept_coefficients": 51,
+          "removed_coefficients": 973,
+          "accuracy_drop_from_baseline_pp": 66.14999999999999,
+          "incremental_accuracy_drop_pp": 0.8500000000000008
+        }
+      ],
+      "band_ablation": [
+        {
+          "band": "low",
+          "accuracy": 0.1465,
+          "kept_coefficients": 683,
+          "removed_coefficients": 341,
+          "accuracy_drop_from_baseline_pp": 64.62
+        },
+        {
+          "band": "mid",
+          "accuracy": 0.5204,
+          "kept_coefficients": 684,
+          "removed_coefficients": 340,
+          "accuracy_drop_from_baseline_pp": 27.229999999999997
+        },
+        {
+          "band": "high",
+          "accuracy": 0.7313,
+          "kept_coefficients": 681,
+          "removed_coefficients": 343,
+          "accuracy_drop_from_baseline_pp": 6.140000000000001
+        }
+      ]
+    },
+    {
+      "seed": 44,
+      "n_train": 45000,
+      "n_val": 5000,
+      "n_test": 10000,
+      "test_accuracy": 0.7946,
+      "high_frequency_ablation": [
+        {
+          "removed_fraction_key": 0.0,
+          "mode": "high",
+          "accuracy": 0.7855,
+          "kept_coefficients": 1024,
+          "removed_coefficients": 0,
+          "accuracy_drop_from_baseline_pp": 0.0,
+          "incremental_accuracy_drop_pp": 0.0
+        },
+        {
+          "removed_fraction_key": 0.05,
+          "mode": "high",
+          "accuracy": 0.785,
+          "kept_coefficients": 973,
+          "removed_coefficients": 51,
+          "accuracy_drop_from_baseline_pp": 0.04999999999999449,
+          "incremental_accuracy_drop_pp": 0.04999999999999449
+        },
+        {
+          "removed_fraction_key": 0.1,
+          "mode": "high",
+          "accuracy": 0.7805,
+          "kept_coefficients": 922,
+          "removed_coefficients": 102,
+          "accuracy_drop_from_baseline_pp": 0.5000000000000004,
+          "incremental_accuracy_drop_pp": 0.45000000000000595
+        },
+        {
+          "removed_fraction_key": 0.15000000000000002,
+          "mode": "high",
+          "accuracy": 0.773,
+          "kept_coefficients": 870,
+          "removed_coefficients": 154,
+          "accuracy_drop_from_baseline_pp": 1.2499999999999956,
+          "incremental_accuracy_drop_pp": 0.7499999999999951
+        },
+        {
+          "removed_fraction_key": 0.2,
+          "mode": "high",
+          "accuracy": 0.767,
+          "kept_coefficients": 819,
+          "removed_coefficients": 205,
+          "accuracy_drop_from_baseline_pp": 1.849999999999996,
+          "incremental_accuracy_drop_pp": 0.6000000000000005
+        },
+        {
+          "removed_fraction_key": 0.25,
+          "mode": "high",
+          "accuracy": 0.759,
+          "kept_coefficients": 768,
+          "removed_coefficients": 256,
+          "accuracy_drop_from_baseline_pp": 2.649999999999997,
+          "incremental_accuracy_drop_pp": 0.8000000000000007
+        },
+        {
+          "removed_fraction_key": 0.30000000000000004,
+          "mode": "high",
+          "accuracy": 0.7355,
+          "kept_coefficients": 717,
+          "removed_coefficients": 307,
+          "accuracy_drop_from_baseline_pp": 4.999999999999993,
+          "incremental_accuracy_drop_pp": 2.3499999999999965
+        },
+        {
+          "removed_fraction_key": 0.35000000000000003,
+          "mode": "high",
+          "accuracy": 0.718,
+          "kept_coefficients": 666,
+          "removed_coefficients": 358,
+          "accuracy_drop_from_baseline_pp": 6.75,
+          "incremental_accuracy_drop_pp": 1.750000000000007
+        },
+        {
+          "removed_fraction_key": 0.4,
+          "mode": "high",
+          "accuracy": 0.7115,
+          "kept_coefficients": 614,
+          "removed_coefficients": 410,
+          "accuracy_drop_from_baseline_pp": 7.399999999999995,
+          "incremental_accuracy_drop_pp": 0.649999999999995
+        },
+        {
+          "removed_fraction_key": 0.45,
+          "mode": "high",
+          "accuracy": 0.6895,
+          "kept_coefficients": 563,
+          "removed_coefficients": 461,
+          "accuracy_drop_from_baseline_pp": 9.599999999999998,
+          "incremental_accuracy_drop_pp": 2.200000000000002
+        },
+        {
+          "removed_fraction_key": 0.5,
+          "mode": "high",
+          "accuracy": 0.6685,
+          "kept_coefficients": 512,
+          "removed_coefficients": 512,
+          "accuracy_drop_from_baseline_pp": 11.7,
+          "incremental_accuracy_drop_pp": 2.100000000000002
+        },
+        {
+          "removed_fraction_key": 0.55,
+          "mode": "high",
+          "accuracy": 0.6485,
+          "kept_coefficients": 461,
+          "removed_coefficients": 563,
+          "accuracy_drop_from_baseline_pp": 13.700000000000001,
+          "incremental_accuracy_drop_pp": 2.0000000000000018
+        },
+        {
+          "removed_fraction_key": 0.6000000000000001,
+          "mode": "high",
+          "accuracy": 0.598,
+          "kept_coefficients": 410,
+          "removed_coefficients": 614,
+          "accuracy_drop_from_baseline_pp": 18.75,
+          "incremental_accuracy_drop_pp": 5.049999999999999
+        },
+        {
+          "removed_fraction_key": 0.65,
+          "mode": "high",
+          "accuracy": 0.549,
+          "kept_coefficients": 358,
+          "removed_coefficients": 666,
+          "accuracy_drop_from_baseline_pp": 23.64999999999999,
+          "incremental_accuracy_drop_pp": 4.899999999999993
+        },
+        {
+          "removed_fraction_key": 0.7000000000000001,
+          "mode": "high",
+          "accuracy": 0.468,
+          "kept_coefficients": 307,
+          "removed_coefficients": 717,
+          "accuracy_drop_from_baseline_pp": 31.749999999999996,
+          "incremental_accuracy_drop_pp": 8.100000000000001
+        },
+        {
+          "removed_fraction_key": 0.75,
+          "mode": "high",
+          "accuracy": 0.392,
+          "kept_coefficients": 256,
+          "removed_coefficients": 768,
+          "accuracy_drop_from_baseline_pp": 39.349999999999994,
+          "incremental_accuracy_drop_pp": 7.600000000000001
+        },
+        {
+          "removed_fraction_key": 0.8,
+          "mode": "high",
+          "accuracy": 0.2775,
+          "kept_coefficients": 205,
+          "removed_coefficients": 819,
+          "accuracy_drop_from_baseline_pp": 50.8,
+          "incremental_accuracy_drop_pp": 11.45
+        },
+        {
+          "removed_fraction_key": 0.8500000000000001,
+          "mode": "high",
+          "accuracy": 0.2145,
+          "kept_coefficients": 154,
+          "removed_coefficients": 870,
+          "accuracy_drop_from_baseline_pp": 57.099999999999994,
+          "incremental_accuracy_drop_pp": 6.3000000000000025
+        },
+        {
+          "removed_fraction_key": 0.9,
+          "mode": "high",
+          "accuracy": 0.174,
+          "kept_coefficients": 102,
+          "removed_coefficients": 922,
+          "accuracy_drop_from_baseline_pp": 61.14999999999999,
+          "incremental_accuracy_drop_pp": 4.050000000000001
+        },
+        {
+          "removed_fraction_key": 0.9500000000000001,
+          "mode": "high",
+          "accuracy": 0.1305,
+          "kept_coefficients": 51,
+          "removed_coefficients": 973,
+          "accuracy_drop_from_baseline_pp": 65.5,
+          "incremental_accuracy_drop_pp": 4.349999999999998
+        }
+      ],
+      "low_frequency_ablation": [
+        {
+          "removed_fraction_key": 0.0,
+          "mode": "low",
+          "accuracy": 0.7855,
+          "kept_coefficients": 1024,
+          "removed_coefficients": 0,
+          "accuracy_drop_from_baseline_pp": 0.0,
+          "incremental_accuracy_drop_pp": 0.0
+        },
+        {
+          "removed_fraction_key": 0.05,
+          "mode": "low",
+          "accuracy": 0.3735,
+          "kept_coefficients": 973,
+          "removed_coefficients": 51,
+          "accuracy_drop_from_baseline_pp": 41.199999999999996,
+          "incremental_accuracy_drop_pp": 41.199999999999996
+        },
+        {
+          "removed_fraction_key": 0.1,
+          "mode": "low",
+          "accuracy": 0.294,
+          "kept_coefficients": 922,
+          "removed_coefficients": 102,
+          "accuracy_drop_from_baseline_pp": 49.15,
+          "incremental_accuracy_drop_pp": 7.950000000000001
+        },
+        {
+          "removed_fraction_key": 0.15000000000000002,
+          "mode": "low",
+          "accuracy": 0.217,
+          "kept_coefficients": 870,
+          "removed_coefficients": 154,
+          "accuracy_drop_from_baseline_pp": 56.85,
+          "incremental_accuracy_drop_pp": 7.699999999999998
+        },
+        {
+          "removed_fraction_key": 0.2,
+          "mode": "low",
+          "accuracy": 0.178,
+          "kept_coefficients": 819,
+          "removed_coefficients": 205,
+          "accuracy_drop_from_baseline_pp": 60.74999999999999,
+          "incremental_accuracy_drop_pp": 3.900000000000001
+        },
+        {
+          "removed_fraction_key": 0.25,
+          "mode": "low",
+          "accuracy": 0.163,
+          "kept_coefficients": 768,
+          "removed_coefficients": 256,
+          "accuracy_drop_from_baseline_pp": 62.24999999999999,
+          "incremental_accuracy_drop_pp": 1.4999999999999987
+        },
+        {
+          "removed_fraction_key": 0.30000000000000004,
+          "mode": "low",
+          "accuracy": 0.1485,
+          "kept_coefficients": 717,
+          "removed_coefficients": 307,
+          "accuracy_drop_from_baseline_pp": 63.7,
+          "incremental_accuracy_drop_pp": 1.4500000000000013
+        },
+        {
+          "removed_fraction_key": 0.35000000000000003,
+          "mode": "low",
+          "accuracy": 0.1475,
+          "kept_coefficients": 666,
+          "removed_coefficients": 358,
+          "accuracy_drop_from_baseline_pp": 63.800000000000004,
+          "incremental_accuracy_drop_pp": 0.10000000000000009
+        },
+        {
+          "removed_fraction_key": 0.4,
+          "mode": "low",
+          "accuracy": 0.1465,
+          "kept_coefficients": 614,
+          "removed_coefficients": 410,
+          "accuracy_drop_from_baseline_pp": 63.9,
+          "incremental_accuracy_drop_pp": 0.10000000000000009
+        },
+        {
+          "removed_fraction_key": 0.45,
+          "mode": "low",
+          "accuracy": 0.1355,
+          "kept_coefficients": 563,
+          "removed_coefficients": 461,
+          "accuracy_drop_from_baseline_pp": 64.99999999999999,
+          "incremental_accuracy_drop_pp": 1.0999999999999983
+        },
+        {
+          "removed_fraction_key": 0.5,
+          "mode": "low",
+          "accuracy": 0.135,
+          "kept_coefficients": 512,
+          "removed_coefficients": 512,
+          "accuracy_drop_from_baseline_pp": 65.05,
+          "incremental_accuracy_drop_pp": 0.050000000000000044
+        },
+        {
+          "removed_fraction_key": 0.55,
+          "mode": "low",
+          "accuracy": 0.132,
+          "kept_coefficients": 461,
+          "removed_coefficients": 563,
+          "accuracy_drop_from_baseline_pp": 65.35,
+          "incremental_accuracy_drop_pp": 0.30000000000000027
+        },
+        {
+          "removed_fraction_key": 0.6000000000000001,
+          "mode": "low",
+          "accuracy": 0.1285,
+          "kept_coefficients": 410,
+          "removed_coefficients": 614,
+          "accuracy_drop_from_baseline_pp": 65.7,
+          "incremental_accuracy_drop_pp": 0.3500000000000003
+        },
+        {
+          "removed_fraction_key": 0.65,
+          "mode": "low",
+          "accuracy": 0.1405,
+          "kept_coefficients": 358,
+          "removed_coefficients": 666,
+          "accuracy_drop_from_baseline_pp": 64.5,
+          "incremental_accuracy_drop_pp": -1.200000000000001
+        },
+        {
+          "removed_fraction_key": 0.7000000000000001,
+          "mode": "low",
+          "accuracy": 0.135,
+          "kept_coefficients": 307,
+          "removed_coefficients": 717,
+          "accuracy_drop_from_baseline_pp": 65.05,
+          "incremental_accuracy_drop_pp": 0.5500000000000005
+        },
+        {
+          "removed_fraction_key": 0.75,
+          "mode": "low",
+          "accuracy": 0.0965,
+          "kept_coefficients": 256,
+          "removed_coefficients": 768,
+          "accuracy_drop_from_baseline_pp": 68.89999999999999,
+          "incremental_accuracy_drop_pp": 3.8500000000000005
+        },
+        {
+          "removed_fraction_key": 0.8,
+          "mode": "low",
+          "accuracy": 0.092,
+          "kept_coefficients": 205,
+          "removed_coefficients": 819,
+          "accuracy_drop_from_baseline_pp": 69.35,
+          "incremental_accuracy_drop_pp": 0.4500000000000004
+        },
+        {
+          "removed_fraction_key": 0.8500000000000001,
+          "mode": "low",
+          "accuracy": 0.09,
+          "kept_coefficients": 154,
+          "removed_coefficients": 870,
+          "accuracy_drop_from_baseline_pp": 69.55,
+          "incremental_accuracy_drop_pp": 0.20000000000000018
+        },
+        {
+          "removed_fraction_key": 0.9,
+          "mode": "low",
+          "accuracy": 0.079,
+          "kept_coefficients": 102,
+          "removed_coefficients": 922,
+          "accuracy_drop_from_baseline_pp": 70.65,
+          "incremental_accuracy_drop_pp": 1.0999999999999996
+        },
+        {
+          "removed_fraction_key": 0.9500000000000001,
+          "mode": "low",
+          "accuracy": 0.0725,
+          "kept_coefficients": 51,
+          "removed_coefficients": 973,
+          "accuracy_drop_from_baseline_pp": 71.3,
+          "incremental_accuracy_drop_pp": 0.6500000000000006
+        }
+      ],
+      "mid_frequency_ablation": [
+        {
+          "removed_fraction_key": 0.0,
+          "mode": "mid",
+          "accuracy": 0.7855,
+          "kept_coefficients": 1024,
+          "removed_coefficients": 0,
+          "accuracy_drop_from_baseline_pp": 0.0,
+          "incremental_accuracy_drop_pp": 0.0
+        },
+        {
+          "removed_fraction_key": 0.05,
+          "mode": "mid",
+          "accuracy": 0.752,
+          "kept_coefficients": 973,
+          "removed_coefficients": 51,
+          "accuracy_drop_from_baseline_pp": 3.3499999999999974,
+          "incremental_accuracy_drop_pp": 3.3499999999999974
+        },
+        {
+          "removed_fraction_key": 0.1,
+          "mode": "mid",
+          "accuracy": 0.72,
+          "kept_coefficients": 922,
+          "removed_coefficients": 102,
+          "accuracy_drop_from_baseline_pp": 6.550000000000001,
+          "incremental_accuracy_drop_pp": 3.200000000000003
+        },
+        {
+          "removed_fraction_key": 0.15000000000000002,
+          "mode": "mid",
+          "accuracy": 0.664,
+          "kept_coefficients": 870,
+          "removed_coefficients": 154,
+          "accuracy_drop_from_baseline_pp": 12.149999999999995,
+          "incremental_accuracy_drop_pp": 5.599999999999994
+        },
+        {
+          "removed_fraction_key": 0.2,
+          "mode": "mid",
+          "accuracy": 0.6255,
+          "kept_coefficients": 819,
+          "removed_coefficients": 205,
+          "accuracy_drop_from_baseline_pp": 16.000000000000004,
+          "incremental_accuracy_drop_pp": 3.850000000000009
+        },
+        {
+          "removed_fraction_key": 0.25,
+          "mode": "mid",
+          "accuracy": 0.606,
+          "kept_coefficients": 768,
+          "removed_coefficients": 256,
+          "accuracy_drop_from_baseline_pp": 17.95,
+          "incremental_accuracy_drop_pp": 1.9499999999999962
+        },
+        {
+          "removed_fraction_key": 0.30000000000000004,
+          "mode": "mid",
+          "accuracy": 0.555,
+          "kept_coefficients": 717,
+          "removed_coefficients": 307,
+          "accuracy_drop_from_baseline_pp": 23.049999999999994,
+          "incremental_accuracy_drop_pp": 5.099999999999993
+        },
+        {
+          "removed_fraction_key": 0.35000000000000003,
+          "mode": "mid",
+          "accuracy": 0.5225,
+          "kept_coefficients": 666,
+          "removed_coefficients": 358,
+          "accuracy_drop_from_baseline_pp": 26.3,
+          "incremental_accuracy_drop_pp": 3.2500000000000084
+        },
+        {
+          "removed_fraction_key": 0.4,
+          "mode": "mid",
+          "accuracy": 0.492,
+          "kept_coefficients": 614,
+          "removed_coefficients": 410,
+          "accuracy_drop_from_baseline_pp": 29.349999999999998,
+          "incremental_accuracy_drop_pp": 3.049999999999997
+        },
+        {
+          "removed_fraction_key": 0.45,
+          "mode": "mid",
+          "accuracy": 0.433,
+          "kept_coefficients": 563,
+          "removed_coefficients": 461,
+          "accuracy_drop_from_baseline_pp": 35.25,
+          "incremental_accuracy_drop_pp": 5.8999999999999995
+        },
+        {
+          "removed_fraction_key": 0.5,
+          "mode": "mid",
+          "accuracy": 0.4165,
+          "kept_coefficients": 512,
+          "removed_coefficients": 512,
+          "accuracy_drop_from_baseline_pp": 36.9,
+          "incremental_accuracy_drop_pp": 1.6500000000000015
+        },
+        {
+          "removed_fraction_key": 0.55,
+          "mode": "mid",
+          "accuracy": 0.3805,
+          "kept_coefficients": 461,
+          "removed_coefficients": 563,
+          "accuracy_drop_from_baseline_pp": 40.5,
+          "incremental_accuracy_drop_pp": 3.599999999999998
+        },
+        {
+          "removed_fraction_key": 0.6000000000000001,
+          "mode": "mid",
+          "accuracy": 0.34,
+          "kept_coefficients": 410,
+          "removed_coefficients": 614,
+          "accuracy_drop_from_baseline_pp": 44.55,
+          "incremental_accuracy_drop_pp": 4.049999999999998
+        },
+        {
+          "removed_fraction_key": 0.65,
+          "mode": "mid",
+          "accuracy": 0.298,
+          "kept_coefficients": 358,
+          "removed_coefficients": 666,
+          "accuracy_drop_from_baseline_pp": 48.75,
+          "incremental_accuracy_drop_pp": 4.200000000000004
+        },
+        {
+          "removed_fraction_key": 0.7000000000000001,
+          "mode": "mid",
+          "accuracy": 0.266,
+          "kept_coefficients": 307,
+          "removed_coefficients": 717,
+          "accuracy_drop_from_baseline_pp": 51.949999999999996,
+          "incremental_accuracy_drop_pp": 3.1999999999999975
+        },
+        {
+          "removed_fraction_key": 0.75,
+          "mode": "mid",
+          "accuracy": 0.2385,
+          "kept_coefficients": 256,
+          "removed_coefficients": 768,
+          "accuracy_drop_from_baseline_pp": 54.699999999999996,
+          "incremental_accuracy_drop_pp": 2.7500000000000027
+        },
+        {
+          "removed_fraction_key": 0.8,
+          "mode": "mid",
+          "accuracy": 0.1955,
+          "kept_coefficients": 205,
+          "removed_coefficients": 819,
+          "accuracy_drop_from_baseline_pp": 59.0,
+          "incremental_accuracy_drop_pp": 4.299999999999998
+        },
+        {
+          "removed_fraction_key": 0.8500000000000001,
+          "mode": "mid",
+          "accuracy": 0.186,
+          "kept_coefficients": 154,
+          "removed_coefficients": 870,
+          "accuracy_drop_from_baseline_pp": 59.94999999999999,
+          "incremental_accuracy_drop_pp": 0.9500000000000008
+        },
+        {
+          "removed_fraction_key": 0.9,
+          "mode": "mid",
+          "accuracy": 0.154,
+          "kept_coefficients": 102,
+          "removed_coefficients": 922,
+          "accuracy_drop_from_baseline_pp": 63.14999999999999,
+          "incremental_accuracy_drop_pp": 3.2
+        },
+        {
+          "removed_fraction_key": 0.9500000000000001,
+          "mode": "mid",
+          "accuracy": 0.133,
+          "kept_coefficients": 51,
+          "removed_coefficients": 973,
+          "accuracy_drop_from_baseline_pp": 65.25,
+          "incremental_accuracy_drop_pp": 2.099999999999999
+        }
+      ],
+      "band_ablation": [
+        {
+          "band": "low",
+          "accuracy": 0.151,
+          "kept_coefficients": 683,
+          "removed_coefficients": 341,
+          "accuracy_drop_from_baseline_pp": 64.36
+        },
+        {
+          "band": "mid",
+          "accuracy": 0.5197,
+          "kept_coefficients": 684,
+          "removed_coefficients": 340,
+          "accuracy_drop_from_baseline_pp": 27.48999999999999
+        },
+        {
+          "band": "high",
+          "accuracy": 0.7318,
+          "kept_coefficients": 681,
+          "removed_coefficients": 343,
+          "accuracy_drop_from_baseline_pp": 6.279999999999997
+        }
+      ]
+    }
+  ],
+  "aggregate": {
+    "n_seeds": 3,
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "test_accuracy": {
+      "mean": 0.7925333333333334,
+      "std": 0.0017594190960528735,
+      "values": [
+        0.7903,
+        0.7927,
+        0.7946
+      ]
+    },
+    "band_ablation": {
+      "low": {
+        "accuracy": {
+          "mean": 0.14686666666666667,
+          "std": 0.003235566239298597,
+          "values": [
+            0.1431,
+            0.1465,
+            0.151
+          ]
+        },
+        "accuracy_drop_from_baseline_pp": {
+          "mean": 64.56666666666666,
+          "std": 0.15173075568988095,
+          "values": [
+            64.72,
+            64.62,
+            64.36
+          ]
+        },
+        "kept_coefficients": 683,
+        "removed_coefficients": 341
+      },
+      "mid": {
+        "accuracy": {
+          "mean": 0.5212666666666667,
+          "std": 0.0017441967269268316,
+          "values": [
+            0.5237,
+            0.5204,
+            0.5197
+          ]
+        },
+        "accuracy_drop_from_baseline_pp": {
+          "mean": 27.12666666666666,
+          "std": 0.34663461390281597,
+          "values": [
+            26.659999999999997,
+            27.229999999999997,
+            27.48999999999999
+          ]
+        },
+        "kept_coefficients": 684,
+        "removed_coefficients": 340
+      },
+      "high": {
+        "accuracy": {
+          "mean": 0.7309666666666667,
+          "std": 0.0008498365855987909,
+          "values": [
+            0.7298,
+            0.7313,
+            0.7318
+          ]
+        },
+        "accuracy_drop_from_baseline_pp": {
+          "mean": 6.156666666666666,
+          "std": 0.09463379711052121,
+          "values": [
+            6.05,
+            6.140000000000001,
+            6.279999999999997
+          ]
+        },
+        "kept_coefficients": 681,
+        "removed_coefficients": 343
+      }
+    }
+  }
+}
