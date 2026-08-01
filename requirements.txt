@@ -1,0 +1,9 @@
+numpy
+scipy
+pandas
+matplotlib
+tensorflow
+torch
+torchvision
+pillow
+requests

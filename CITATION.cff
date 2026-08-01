@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Statistical Spectral Response Signatures for Characterizing Neural Networks Performance"
+type: software
+authors:
+  - family-names: Tinchev
+    given-names: Stivan Svetoslavov
+    affiliation: "Faculty of Mathematical Sciences, Universidad Complutense de Madrid"
+  - family-names: Rubio Herranz
+    given-names: Sonia
+    affiliation: "Department of Statistics and Operations Research, Universidad Complutense de Madrid"
+  - family-names: López Montes
+    given-names: Antonio
+    affiliation: "Department of Applied Mathematics and Mathematical Analysis, Universidad Complutense de Madrid"
+  - family-names: López Hernández
+    given-names: Fernando Carlos
+    affiliation: "Department of Artificial Intelligence, Universidad Complutense de Madrid"
+repository-code: "https://github.com/stinchev/article-Statistical-Spectral-Response-Signatures-for-Characterizing-Neural-Network-Performance"
+keywords:
+  - neural networks
+  - spectral analysis
+  - Fourier transform
+  - spectral response function
+  - spectral bias
+license: MIT
